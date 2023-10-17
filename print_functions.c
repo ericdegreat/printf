@@ -154,13 +154,13 @@ int print_int(va_list types, char buffer[],
  */
 int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
-OBOBOB{
-OBOBOB	unsigned int n, m, i, sum;
+{
+	unsigned int n, m, i, sum;
 	unsigned int a[32];
 	int count;
 
 	UNUSED(buffer);
-OBOBOB	UNUSED(flags);
+	UNUSED(flags);
 	UNUSED(width);
 	UNUSED(precision);
 	UNUSED(size);
